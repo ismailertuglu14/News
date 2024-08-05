@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article h1 {
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.article p {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.article figure img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article article {
+    max-width: 850px;
+}
+
+.article h4 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.article img {
+    margin-right: auto;
+    margin-left: auto;
+}

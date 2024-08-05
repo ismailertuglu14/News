@@ -1,0 +1,26 @@
+.swiper-pagination-bullet {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    opacity: 1;
+    background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #000;
+}
+
+.swiper-pagination {
+    background-color: #ccc9dc;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
